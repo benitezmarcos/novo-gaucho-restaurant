@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: url(assets/img/bodybg2.jpg)center/cover fixed no-repeat;
+    background: url(../img/bodybg2.jpg)center/cover fixed no-repeat;
 }
 
 .primary-color {
@@ -27,7 +27,7 @@ body {
 
 #header {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/img/zch3iklmgzphazt3o2ut.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/zch3iklmgzphazt3o2ut.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -137,7 +137,7 @@ body {
 /* Menu */
 
 #menu {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(assets/img/miaso-pivo-limon-steik.jpg) center/cover fixed no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/miaso-pivo-limon-steik.jpg) center/cover fixed no-repeat;
 }
 
 .special {
