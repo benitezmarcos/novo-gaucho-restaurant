@@ -3,12 +3,16 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald', sans-serif;
     background: url(../img/bodybg2.jpg)center/cover no-repeat;
 }
 
 .primary-color {
     color: #d3325f;
+}
+
+.logo-brand{
+    font-family: 'Yellowtail', cursive;
 }
 
 .info h2 {
@@ -146,7 +150,7 @@ body {
 }
 
 .navbar-brand{
-    font-size: 20px;
+    font-size: 25px;
     transition: all 1s ease;
 }
 

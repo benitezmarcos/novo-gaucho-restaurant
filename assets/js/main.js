@@ -9,7 +9,7 @@ $(document).ready(function () {
   $(window).scroll(function(){
     let position = $(this).scrollTop();
     
-    if(position>= 551){
+    if(position>= 810){
       $('.navbar').addClass('navbar-background');
       $('.navbar').addClass('fixed-top');
     }
