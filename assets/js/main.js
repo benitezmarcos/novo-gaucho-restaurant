@@ -8,8 +8,9 @@ $(document).ready(function () {
   //sticky navbar
   $(window).scroll(function(){
     let position = $(this).scrollTop();
+    console.log(position);
     
-    if(position>= 810){
+    if(position>= 740){
       $('.navbar').addClass('navbar-background');
       $('.navbar').addClass('fixed-top');
     }
