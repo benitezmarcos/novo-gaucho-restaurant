@@ -1,14 +1,22 @@
 .info {
-    background: #c9c1ac;
+    background:#c9c1ac;
 }
 
 body {
     font-family: 'Oswald', sans-serif;
-    background: url(../img/bodybg2.jpg)center/cover no-repeat;
+    background: url(../img/bodybg2.jpg);
+    background-position: center;
+    background-size: contain;
+
 }
 
 .primary-color {
     color: #d3325f;
+}
+
+h1{
+    color: #d3325f;
+
 }
 
 .logo-brand{
@@ -27,6 +35,7 @@ body {
     color: #242424;
 }
 
+
 /* HEADER */
 
 #header {
@@ -34,7 +43,6 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/zch3iklmgzphazt3o2ut.jpg);
     background-position: center;
     background-size: cover;
-    /* background-attachment: fixed; */
 }
 
 .height-90 {
@@ -139,6 +147,8 @@ body {
     color: #242424;
 }
 /* Navbar */
+
+
 .navbar{
     background:#c9c1ac;
     padding:20px 20px;
@@ -159,7 +169,7 @@ body {
 }
 
 .nav-link{
-    color:242424;
+    color:#242424;
     text-decoration: none;
     transition: all 1s ease;
     font-size: 23px;
@@ -194,6 +204,11 @@ body {
 
 #menu {
     background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../img/miaso-pivo-limon-steik.jpg) center/cover no-repeat;
+}
+
+.menu-title{
+    font-family: 'Yellowtail', cursive;
+    font-size: 3rem;
 }
 
 .special {
@@ -308,4 +323,21 @@ body {
     background: #c9c1ac;
     color: #d3325f;
     border-color: #c9c1ac;
+}
+
+@media (min-width: 800px){
+    body {
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #header {
+        background-attachment: fixed;
+
+    }
+
+    #menu{
+        background-attachment: fixed;
+
+    }
+
 }
